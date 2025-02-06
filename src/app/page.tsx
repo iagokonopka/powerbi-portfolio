@@ -87,11 +87,11 @@ export default function BIPortfolioPage() {
                   <div className="flex flex-wrap gap-2">
                   {project.tools.map((tool) => {
                     const toolColors: { [key: string]: string } = {
-                      'Power BI': 'bg-blue-900 text-blue-300',
-                      'Excel': 'bg-green-900 text-green-300',
-                      'Sharepoint': 'bg-red-900 text-red-300',
-                      'SQL': 'bg-yellow-900 text-yellow-300',
-                      'Python': 'bg-emerald-900 text-emerald-300'
+                      'Power BI': 'bg-yellow-900 text-yellow-300',
+                      'Excel': 'bg-emerald-900 text-emerald-300',
+                      'Sharepoint': 'bg-green-900 text-green-300',
+                      'SQL': 'bg-red-900 text-red-300',
+                      'Python': 'bg-blue-500 text-blue-300'
                     };
 
                     return (
