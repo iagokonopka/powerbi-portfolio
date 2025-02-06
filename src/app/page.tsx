@@ -6,7 +6,6 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 export default function BIPortfolioPage() {
   return (
     <div className="flex flex-col md:flex-row min-h-screen bg-black text-white">
-      {/* Sidebar */}
       <aside className="w-full md:w-72 bg-neutral-900 p-6 md:p-8">
         <div className="flex flex-col h-full">
           <div>
@@ -30,7 +29,6 @@ export default function BIPortfolioPage() {
         </div>
       </aside>
       
-      {/* Main Content Area */}
       <main className="flex-1 p-6 md:p-12">
         <section className="max-w-4xl mx-auto">
           <h1 className="text-2xl md:text-4xl font-bold mb-6 md:mb-8">Meus Projetos de BI</h1>
@@ -75,7 +73,7 @@ export default function BIPortfolioPage() {
                   </div>
                   <Link 
                     href={project.link} 
-                    className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-full text-sm transition-colors"
+                    className="bg-blue-800 hover:bg-blue-900 text-white px-4 py-2 rounded-full text-sm transition-colors"
                   >
                     Ver projeto
                   </Link>
