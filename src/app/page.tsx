@@ -36,7 +36,7 @@ export default function BIPortfolioPage() {
           <div className="grid md:grid-cols-2 gap-6 md:gap-8">
             {[
               {
-                image: "/abb.png",
+                image: "powerbi-portfolio/abb.png",
                 title: "Procurement IM&S PA Report",
                 description: "Visualização interativa de métricas de vendas com análise comparativa e tendências.",
                 tools: ["Power BI", "Excel", "Sharepoint"],
