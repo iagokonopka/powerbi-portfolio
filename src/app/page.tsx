@@ -40,7 +40,7 @@ export default function BIPortfolioPage() {
                 title: "Procurement IM&S PA Report",
                 description: "This report is focused on Purchase Requisition and Receipt metrics that help the Procurement team on a daily-basis analysis.",
                 tools: ["Power BI", "Excel", "Sharepoint"],
-                link: "/projects/project1"
+                link: "/projects/project1/"
               },
               {
                 image: "/powerbi-portfolio/solman.png",
