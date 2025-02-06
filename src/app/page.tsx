@@ -83,8 +83,8 @@ export default function BIPortfolioPage() {
                 <p className="text-neutral-400 text-sm md:text-base mb-4 flex-grow">
                   {project.description}
                 </p>
-                <div className="flex justify-between items-center mt-auto">
-                  <div className="flex space-x-2">
+                <div className="flex flex-col sm:flex-row gap-4 justify-between items-start sm:items-center mt-auto">
+                  <div className="flex flex-wrap gap-2">
                     {project.tools.map((tool) => (
                       <span 
                         key={tool} 
@@ -96,7 +96,7 @@ export default function BIPortfolioPage() {
                   </div>
                   <Link 
                     href={project.link} 
-                    className="bg-blue-800 hover:bg-blue-900 text-white px-4 py-2 rounded-full text-sm transition-colors"
+                    className="bg-blue-800 hover:bg-blue-900 text-white px-4 py-2 rounded-full text-sm transition-colors shrink-0"
                   >
                     See details
                   </Link>
