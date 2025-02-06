@@ -17,13 +17,13 @@ export default function DashboardVendasPage() {
 
         {/* Project Header */}
         <header className="mb-12">
-          <h1 className="text-2xl md:text-4xl font-bold mb-4">Live Translator Bot Report</h1>
+          <h1 className="text-2xl md:text-4xl font-bold mb-4">Marketing Analytics</h1>
           <div className="flex flex-wrap gap-2">
             <span className="bg-yellow-900 text-yellow-300 px-2 py-1 rounded-full text-xs">
               Power BI
             </span>
-            <span className="bg-red-900 text-red-300 px-2 py-1 rounded-full text-xs">
-              SQL
+            <span className="bg-emerald-900 text-emerald-300 px-2 py-1 rounded-full text-xs">
+              Excel
             </span>
           </div>
         </header>
@@ -43,7 +43,7 @@ export default function DashboardVendasPage() {
             <iframe 
               title="Procurement IM&S PA Report - Portfolio" 
               className="absolute inset-0 w-full h-full bg-neutral-800" 
-              src="https://app.powerbi.com/view?r=eyJrIjoiMTRhY2UzNzctNjgzOS00YzdhLWE5MjMtNDk3NGM3MjhiODNiIiwidCI6IjRhMzA5ZGI1LTAzYTctNDExMC05MWI0LTdiMjE5NmY5MWE5OSJ9" 
+              src="https://app.powerbi.com/view?r=eyJrIjoiNTZmM2JkZjEtNWE4ZC00YWRlLWIxN2MtNjllNzcyYWEyZmNkIiwidCI6IjRhMzA5ZGI1LTAzYTctNDExMC05MWI0LTdiMjE5NmY5MWE5OSJ9" 
               frameBorder="0" 
               allowFullScreen
             ></iframe>

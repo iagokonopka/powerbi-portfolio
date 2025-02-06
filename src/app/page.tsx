@@ -85,14 +85,24 @@ export default function BIPortfolioPage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-between items-start sm:items-center mt-auto">
                   <div className="flex flex-wrap gap-2">
-                    {project.tools.map((tool) => (
+                  {project.tools.map((tool) => {
+                    const toolColors: { [key: string]: string } = {
+                      'Power BI': 'bg-blue-900 text-blue-300',
+                      'Excel': 'bg-green-900 text-green-300',
+                      'Sharepoint': 'bg-red-900 text-red-300',
+                      'SQL': 'bg-yellow-900 text-yellow-300',
+                      'Python': 'bg-emerald-900 text-emerald-300'
+                    };
+
+                    return (
                       <span 
                         key={tool} 
-                        className="bg-neutral-800 text-neutral-300 px-2 py-1 rounded-full text-xs"
+                        className={`${toolColors[tool] || 'bg-neutral-800 text-neutral-300'} px-2 py-1 rounded-full text-xs`}
                       >
                         {tool}
                       </span>
-                    ))}
+                    );
+                  })}
                   </div>
                   <Link 
                     href={project.link} 

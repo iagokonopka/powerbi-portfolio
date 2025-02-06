@@ -25,6 +25,9 @@ export default function DashboardVendasPage() {
             <span className="bg-red-900 text-red-300 px-2 py-1 rounded-full text-xs">
               SQL
             </span>
+            <span className="bg-blue-900 text-blue-300 px-2 py-1 rounded-full text-xs">
+              Python
+            </span>
           </div>
         </header>
 
@@ -43,7 +46,7 @@ export default function DashboardVendasPage() {
             <iframe 
               title="Procurement IM&S PA Report - Portfolio" 
               className="absolute inset-0 w-full h-full bg-neutral-800" 
-              src="https://app.powerbi.com/view?r=eyJrIjoiMTRhY2UzNzctNjgzOS00YzdhLWE5MjMtNDk3NGM3MjhiODNiIiwidCI6IjRhMzA5ZGI1LTAzYTctNDExMC05MWI0LTdiMjE5NmY5MWE5OSJ9" 
+              src="https://app.powerbi.com/view?r=eyJrIjoiZDQ0ODJlYTQtNjBkYS00YWUzLWJkYWUtZDU0OWMzZGI5MzgzIiwidCI6IjRhMzA5ZGI1LTAzYTctNDExMC05MWI0LTdiMjE5NmY5MWE5OSJ9" 
               frameBorder="0" 
               allowFullScreen
             ></iframe>

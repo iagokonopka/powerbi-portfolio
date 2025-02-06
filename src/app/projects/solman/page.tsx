@@ -19,7 +19,7 @@ export default function DashboardVendasPage() {
         <header className="mb-12">
           <h1 className="text-2xl md:text-4xl font-bold mb-4">SAP Solman Governance Report</h1>
           <div className="flex flex-wrap gap-2">
-            <span className="bg-amber-900 text-amber-300 px-2 py-1 rounded-full text-xs">
+            <span className="bg-yellow-900 text-yellow-300 px-2 py-1 rounded-full text-xs">
               Power BI
             </span>
             <span className="bg-emerald-900 text-emerald-300 px-2 py-1 rounded-full text-xs">
