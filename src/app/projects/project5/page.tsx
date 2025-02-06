@@ -17,7 +17,7 @@ export default function DashboardVendasPage() {
 
         {/* Project Header */}
         <header className="mb-12">
-          <h1 className="text-2xl md:text-4xl font-bold mb-4">Live Translator Bot Report</h1>
+          <h1 className="text-2xl md:text-4xl font-bold mb-4">Commitment of Traders Report</h1>
           <div className="flex flex-wrap gap-2">
             <span className="bg-yellow-900 text-yellow-300 px-2 py-1 rounded-full text-xs">
               Power BI
