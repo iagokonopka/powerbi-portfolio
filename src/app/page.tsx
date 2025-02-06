@@ -51,11 +51,13 @@ export default function BIPortfolioPage() {
               }
             ].map((project) => (
               <div key={project.title} className="bg-neutral-900 p-4 md:p-6 rounded-lg flex flex-col">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
-                  className="w-full h-40 md:h-48 object-cover rounded-lg mb-4"
-                />
+                <div className="relative w-full aspect-video overflow-hidden rounded-lg mb-4">
+                  <img 
+                    src={project.image} 
+                    alt={project.title} 
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                </div>
                 <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">{project.title}</h2>
                 <p className="text-neutral-400 text-sm md:text-base mb-4 flex-grow">
                   {project.description}
