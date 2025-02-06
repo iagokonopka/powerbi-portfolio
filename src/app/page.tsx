@@ -91,7 +91,7 @@ export default function BIPortfolioPage() {
                       'Excel': 'bg-emerald-900 text-emerald-300',
                       'Sharepoint': 'bg-green-900 text-green-300',
                       'SQL': 'bg-red-900 text-red-300',
-                      'Python': 'bg-blue-500 text-blue-300'
+                      'Python': 'bg-blue-600 text-blue-100'
                     };
 
                     return (

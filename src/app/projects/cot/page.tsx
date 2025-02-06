@@ -25,7 +25,7 @@ export default function DashboardVendasPage() {
             <span className="bg-red-900 text-red-300 px-2 py-1 rounded-full text-xs">
               SQL
             </span>
-            <span className="bg-blue-900 text-blue-300 px-2 py-1 rounded-full text-xs">
+            <span className="bg-blue-600 text-blue-100 px-2 py-1 rounded-full text-xs">
               Python
             </span>
           </div>
