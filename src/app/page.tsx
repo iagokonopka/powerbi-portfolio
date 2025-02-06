@@ -31,7 +31,7 @@ export default function BIPortfolioPage() {
       
       <main className="flex-1 p-6 md:p-12">
         <section className="max-w-4xl mx-auto">
-          <h1 className="text-2xl md:text-4xl font-bold mb-6 md:mb-8">Power BI Reports Portfolio</h1>
+          <h1 className="text-2xl md:text-7xl font-bold mb-6 md:mb-8">Power BI Reports Portfolio</h1>
           
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {[
