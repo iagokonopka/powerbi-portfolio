@@ -38,15 +38,36 @@ export default function BIPortfolioPage() {
               {
                 image: "/powerbi-portfolio/abb.png",
                 title: "Procurement IM&S PA Report",
-                description: "Visualização interativa de métricas de vendas com análise comparativa e tendências.",
+                description: "This report is focused on Purchase Requisition and Receipt metrics that help the Procurement team on a daily-basis analysis.",
                 tools: ["Power BI", "Excel", "Sharepoint"],
-                link: "/projetos/dashboard-vendas"
+                link: "/projects/abb"
               },
               {
                 image: "/powerbi-portfolio/solman.png",
                 title: "SAP Solman Governance",
-                description: "Relatório detalhado de KPIs e métricas de desempenho organizacional.",
-                tools: ["Tableau", "Excel"],
+                description: "Report built to display volume of Incident tickets from SAP Solman, helping the team to reduce the backlogged tickets.",
+                tools: ["Power BI", "Sharepoint"],
+                link: "/projetos/analise-performance"
+              },
+              {
+                image: "/powerbi-portfolio/voicero.png",
+                title: "Live Translator Bot",
+                description: "Project made to help the developers displaying usage metrics for bot that translates voice calls in real-time.",
+                tools: ["Power BI", "SQL"],
+                link: "/projetos/analise-performance"
+              },
+              {
+                image: "/powerbi-portfolio/xflow.png",
+                title: "Marketing Analytics",
+                description: "Report created to analyze data from advertising campaigns using common metrics to ensure marketing performance.",
+                tools: ["Power BI", "Excel"],
+                link: "/projetos/analise-performance"
+              },
+              {
+                image: "/powerbi-portfolio/cot.png",
+                title: "Commitment of Traders",
+                description: "Project built to display market price changes based on the Commitment of Traders weekly balance.",
+                tools: ["Power BI", "SQL", "Python"],
                 link: "/projetos/analise-performance"
               }
             ].map((project) => (
@@ -77,7 +98,7 @@ export default function BIPortfolioPage() {
                     href={project.link} 
                     className="bg-blue-800 hover:bg-blue-900 text-white px-4 py-2 rounded-full text-sm transition-colors"
                   >
-                    Ver projeto
+                    See details
                   </Link>
                 </div>
               </div>
