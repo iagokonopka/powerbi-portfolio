@@ -11,17 +11,17 @@ export default function BIPortfolioPage() {
           <div>
             <h1 className="text-2xl md:text-3xl font-bold mb-2 md:mb-4">Iago Konopka</h1>
             <p className="text-neutral-400 text-sm md:text-base mb-4">
-              Especialista em Business Intelligence e Análise de Dados
+              Data Analyst focused on powerful BI solutions development.
             </p>
             
             <div className="flex space-x-4 mb-6">
-              <a href="#" className="text-neutral-400 hover:text-white transition-colors">
+              <a href="https://github.com/iagokonopka/" className="text-neutral-400 hover:text-white transition-colors">
                 <Github size={20} />
               </a>
-              <a href="#" className="text-neutral-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/iago-konopka/" className="text-neutral-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-neutral-400 hover:text-white transition-colors">
+              <a href="mailto:konopka.iago@gmail.com" className="text-neutral-400 hover:text-white transition-colors">
                 <Mail size={20} />
               </a>
             </div>
@@ -31,15 +31,15 @@ export default function BIPortfolioPage() {
       
       <main className="flex-1 p-6 md:p-12">
         <section className="max-w-4xl mx-auto">
-          <h1 className="text-2xl md:text-4xl font-bold mb-6 md:mb-8">Meus Projetos de BI</h1>
+          <h1 className="text-2xl md:text-4xl font-bold mb-6 md:mb-8">Power BI Reports Portfolio</h1>
           
           <div className="grid md:grid-cols-2 gap-6 md:gap-8">
             {[
               {
-                image: "/bi-project1.png",
-                title: "Dashboard de Vendas",
+                image: "/abb.png",
+                title: "Procurement IM&S PA Report",
                 description: "Visualização interativa de métricas de vendas com análise comparativa e tendências.",
-                tools: ["Power BI", "SQL"],
+                tools: ["Power BI", "Excel", "Sharepoint"],
                 link: "/projetos/dashboard-vendas"
               },
               {
