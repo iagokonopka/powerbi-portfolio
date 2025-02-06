@@ -22,10 +22,10 @@ export default function DashboardVendasPage() {
             <span className="bg-yellow-900 text-yellow-300 px-2 py-1 rounded-full text-xs">
               Power BI
             </span>
-            <span className="bg-emerald-900 text-emerald-300 px-2 py-1 rounded-full text-xs">
+            <span className="bg-green-900 text-green-300 px-2 py-1 rounded-full text-xs">
               Excel
             </span>
-            <span className="bg-green-900 text-green-300 px-2 py-1 rounded-full text-xs">
+            <span className="bg-emerald-900 text-emerald-300 px-2 py-1 rounded-full text-xs">
               Sharepoint
             </span>
           </div>

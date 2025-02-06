@@ -88,8 +88,8 @@ export default function BIPortfolioPage() {
                   {project.tools.map((tool) => {
                     const toolColors: { [key: string]: string } = {
                       'Power BI': 'bg-yellow-900 text-yellow-300',
-                      'Excel': 'bg-emerald-900 text-emerald-300',
-                      'Sharepoint': 'bg-green-900 text-green-300',
+                      'Excel': 'bg-green-900 text-green-300',
+                      'Sharepoint': 'bg-emerald-900 text-emerald-300',
                       'SQL': 'bg-red-900 text-red-300',
                       'Python': 'bg-blue-600 text-blue-100'
                     };
