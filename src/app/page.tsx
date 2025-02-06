@@ -43,8 +43,8 @@ export default function BIPortfolioPage() {
                 link: "/projetos/dashboard-vendas"
               },
               {
-                image: "/bi-project2.png",
-                title: "Análise de Performance",
+                image: "/powerbi-portfolio/solman.png",
+                title: "SAP Solman Governance",
                 description: "Relatório detalhado de KPIs e métricas de desempenho organizacional.",
                 tools: ["Tableau", "Excel"],
                 link: "/projetos/analise-performance"
