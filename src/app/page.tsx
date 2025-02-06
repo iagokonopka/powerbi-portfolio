@@ -40,35 +40,35 @@ export default function BIPortfolioPage() {
                 title: "Procurement IM&S PA Report",
                 description: "This report is focused on Purchase Requisition and Receipt metrics that help the Procurement team on a daily-basis analysis.",
                 tools: ["Power BI", "Excel", "Sharepoint"],
-                link: "/projects/abb"
+                link: "/projects/project1"
               },
               {
                 image: "/powerbi-portfolio/solman.png",
                 title: "SAP Solman Governance",
                 description: "Report built to display volume of Incident tickets from SAP Solman, helping the team to reduce the backlogged tickets.",
                 tools: ["Power BI", "Sharepoint"],
-                link: "/projects/solman"
+                link: "/projects/project2"
               },
               {
                 image: "/powerbi-portfolio/voicero.png",
                 title: "Live Translator Bot",
                 description: "Project made to help the developers displaying usage metrics for bot that translates voice calls in real-time.",
                 tools: ["Power BI", "SQL"],
-                link: "/projects/voicero"
+                link: "/projects/project3"
               },
               {
                 image: "/powerbi-portfolio/xflow.png",
                 title: "Marketing Analytics",
                 description: "Report created to analyze data from advertising campaigns using common metrics to ensure marketing performance.",
                 tools: ["Power BI", "Excel"],
-                link: "/projects/xflow"
+                link: "/projects/project4"
               },
               {
                 image: "/powerbi-portfolio/cot.png",
                 title: "Commitment of Traders",
                 description: "Project built to display market price changes based on the Commitment of Traders weekly balance.",
                 tools: ["Power BI", "SQL", "Python"],
-                link: "/projects/cot"
+                link: "/projects/project5"
               }
             ].map((project) => (
               <div key={project.title} className="bg-neutral-900 p-4 md:p-6 rounded-lg flex flex-col">
