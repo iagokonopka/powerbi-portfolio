@@ -33,7 +33,7 @@ export default function BIPortfolioPage() {
         <section className="max-w-4xl mx-auto">
           <h1 className="text-2xl md:text-4xl font-bold mb-6 md:mb-8">Power BI Reports Portfolio</h1>
           
-          <div className="grid md:grid-cols-2 gap-6 md:gap-8">
+          <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             {[
               {
                 image: "/powerbi-portfolio/abb.png",
