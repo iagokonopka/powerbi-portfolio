@@ -19,13 +19,13 @@ export default function DashboardVendasPage() {
         <header className="mb-12">
           <h1 className="text-2xl md:text-4xl font-bold mb-4">Procurement IM&S PA Report</h1>
           <div className="flex flex-wrap gap-2">
-            <span className="bg-neutral-800 text-neutral-300 px-2 py-1 rounded-full text-xs">
+            <span className="bg-amber-900 text-amber-300 px-2 py-1 rounded-full text-xs">
               Power BI
             </span>
-            <span className="bg-neutral-800 text-neutral-300 px-2 py-1 rounded-full text-xs">
+            <span className="bg-emerald-900 text-emerald-300 px-2 py-1 rounded-full text-xs">
               Excel
             </span>
-            <span className="bg-neutral-800 text-neutral-300 px-2 py-1 rounded-full text-xs">
+            <span className="bg-green-900 text-green-300 px-2 py-1 rounded-full text-xs">
               Sharepoint
             </span>
           </div>

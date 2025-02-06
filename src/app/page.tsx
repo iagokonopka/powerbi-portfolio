@@ -11,7 +11,7 @@ export default function BIPortfolioPage() {
           <div>
             <h1 className="text-2xl md:text-3xl font-bold mb-2 md:mb-4">Iago Konopka</h1>
             <p className="text-neutral-400 text-sm md:text-base mb-4">
-              Data Analyst focused on powerful BI solutions development.
+              Data Analyst / Engineer focused on powerful BI solutions development.
             </p>
             
             <div className="flex space-x-4 mb-6">
