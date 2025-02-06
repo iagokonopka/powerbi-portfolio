@@ -104,13 +104,12 @@ export default function BIPortfolioPage() {
               </div>
             ))}
           </div>
-        </section>
-        {/* Project Details */}
-        <section className="max-w-7xl mx-auto">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">Disclaimer</h2>
-          <p className="text-neutral-400 text-sm md:text-base">
-            Projects created 100% by me.
-          </p>
+          <section className="bg-neutral-900 rounded-lg p-4 md:p-6">
+            <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">Disclaimer</h2>
+            <p className="text-neutral-400 text-sm md:text-base">
+              Projects created 100% by me.
+            </p>
+          </section>
         </section>
       </main>
     </div>
