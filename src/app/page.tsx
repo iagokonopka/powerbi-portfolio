@@ -108,7 +108,13 @@ export default function BIPortfolioPage() {
             <section className="bg-neutral-900 rounded-lg p-4 md:p-6">
               <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">Disclaimer</h2>
               <p className="text-neutral-400 text-sm md:text-base">
-                Projects created 100% by me.
+                * Real projects developed entirely by me.
+              </p>
+              <p className="text-neutral-400 text-sm md:text-base">
+                ** The data has been anonymized and modified to ensure compliance with the LGPD.
+              </p>
+              <p className="text-neutral-400 text-sm md:text-base">
+                *** Unauthorized reproduction may result in legal implications.
               </p>
             </section>
           </div>
